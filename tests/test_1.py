@@ -1,5 +1,4 @@
 import re
-import playwright
 from playwright.sync_api import Page, expect  # type: ignore[import]
 def test_has_title(page: Page):
     page.goto("https://playwright.dev/")
